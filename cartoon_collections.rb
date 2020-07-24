@@ -9,7 +9,7 @@ end
 
 
 def long_planeteer_calls(planeteer_calls)
-planeteer_calls.find {|str| str.length > 4} 
+planeteer_calls.any? {|str| str.length > 4} 
 end
 
 def find_valid_calls(planeteer_calls)
