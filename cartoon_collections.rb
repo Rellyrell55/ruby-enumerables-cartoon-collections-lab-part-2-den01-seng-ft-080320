@@ -1,6 +1,5 @@
 def square_array(array)
-  array.map do{ |num| num * num }
-  end 
+  array.map{ |num| num * num }
 end
 
 def summon_captain_planet(planeteer_calls)
